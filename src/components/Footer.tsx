@@ -12,14 +12,14 @@ const Footer = () => {
               className="w-10 h-10 rounded-full object-cover ring-2 ring-primary/30"
             />
             <span className="font-display text-lg text-foreground">
-              Pixel<span className="text-primary">Photo</span> Graphy
+              <span className="text-primary">Pixel</span> PhotoGraphy
             </span>
           </div>
-          
+
           <p className="text-muted-foreground text-sm text-center">
-            © {new Date().getFullYear()} PixelPhoto Graphy. All rights reserved.
+            © {new Date().getFullYear()} Pixel PhotoGraphy. All rights reserved.
           </p>
-          
+
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors duration-300">
               Privacy Policy

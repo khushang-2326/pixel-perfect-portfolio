@@ -21,11 +21,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
           ? "bg-background/95 backdrop-blur-md border-b border-border"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
@@ -36,7 +35,7 @@ const Navbar = () => {
               className="w-12 h-12 rounded-full object-cover ring-2 ring-primary/50 group-hover:ring-primary transition-all duration-300"
             />
             <span className="font-display text-xl tracking-wide text-foreground">
-              Pixel<span className="text-primary">Photo</span> Graphy
+              <span className="text-primary">Pixel</span> PhotoGraphy
             </span>
           </a>
 

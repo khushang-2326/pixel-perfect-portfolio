@@ -90,6 +90,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "image-reveal": "image-reveal 1.2s ease-out forwards",
         "slide-in": "slide-in 0.6s ease-out forwards",
+        "spin-slow": "spin 8s linear infinite",
       },
     },
   },
