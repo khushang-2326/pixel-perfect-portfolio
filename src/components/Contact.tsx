@@ -8,9 +8,8 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Instagram, href: "https://www.instagram.com/pixelphotography3?igsh=MTB4YXo2YXN4bnBlZQ==", label: "Instagram" },
+    // { icon: Facebook, href: "#", label: "Facebook" },
   ];
 
   return (
@@ -47,6 +46,7 @@ const Contact = () => {
             <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
+                  target="_blank"
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
