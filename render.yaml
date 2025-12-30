@@ -1,9 +1,9 @@
 services:
-  - type: static
+  - type: web
     name: pixel-perfect-portfolio
     env: static
     buildCommand: npm install && npm run build
-    publishDir: dist
+    staticPublishPath: dist
     routes:
       - type: rewrite
         source: /*
