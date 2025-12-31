@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/camera-bg.jpg";
-import logo from "@/assets/logo.jpg";
+
 
 const Hero = () => {
   return (
@@ -21,20 +21,7 @@ const Hero = () => {
       {/* Content Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-30 pointer-events-auto">
         <div className="text-center px-6 max-w-4xl mx-auto w-full">
-          {/* Logo & Spinner */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative w-28 h-28 mx-auto mb-8"
-          >
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-primary via-primary/20 to-primary animate-spin-slow blur-[2px]" />
-            <img
-              src={logo}
-              alt="PixelPhoto Graphy"
-              className="relative w-full h-full rounded-full object-cover border-2 border-black"
-            />
-          </motion.div>
+
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
